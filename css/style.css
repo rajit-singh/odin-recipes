@@ -6,12 +6,7 @@
     background-color: #FBFBFB;
 }
 
-h1 {
-    font-family: Montserrat;
-    font-weight: 500;
-}
-
-h3 {
+h1, h2, h3 {
     font-weight: 500;
 }
 
@@ -19,6 +14,7 @@ h3 {
     text-align: center;
     max-width: 60%;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 /* This solves the issue where the HTML indentation was being treated as a whitespace at the starting of each line in <pre> */
@@ -30,4 +26,14 @@ a {
     color: #FE735E;
     text-decoration: none;
     font-weight: 500;
+}
+
+.myUL {
+    display: inline-block;
+    text-align: left;
+}
+
+.recipe-header-image {
+    height: auto;
+    width: 500px;
 }
