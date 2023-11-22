@@ -39,6 +39,11 @@ ul.myUL, ol.myUL {
     width: 500px;
 }
 
+.homepage-hero-image {
+    height: auto;
+    width: 300px;
+}
+
 a#button {
     background-color: #FE735E;
     color: #FBFBFB;
