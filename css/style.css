@@ -4,6 +4,7 @@
     font-family: Montserrat;
     font-weight: 300;
     background-color: #FBFBFB;
+    /*border: 2px solid red;*/
 }
 
 h1, h2, h3 {
@@ -28,7 +29,7 @@ a {
     font-weight: 500;
 }
 
-.myUL {
+ul.myUL, ol.myUL {
     display: inline-block;
     text-align: left;
 }
@@ -36,4 +37,20 @@ a {
 .recipe-header-image {
     height: auto;
     width: 500px;
+}
+
+a#button {
+    background-color: #FE735E;
+    color: #FBFBFB;
+    padding: 10px 20px;
+    border: 2px solid #FE735E;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+a#button:hover {
+    background-color: #FBFBFB;
+    color: #FE735E;
+    border: 2px solid #FE735E;
 }
