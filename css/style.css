@@ -14,8 +14,7 @@ h1, h2, h3 {
 .main-body {
     text-align: center;
     max-width: 60%;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 0px auto 30px;
 }
 
 /* This solves the issue where the HTML indentation was being treated as a whitespace at the starting of each line in <pre> */
