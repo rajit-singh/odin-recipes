@@ -72,23 +72,6 @@ a.button:hover {
     color: #FE735E;
 }
 
-.recipe-container {
-    font-size: 0px;
-}
-
-a.recipe-item {
-    width: 15%;
-    padding:10px;
-    margin: 10px;
-    border-radius: 8px;
-    box-sizing: border-box;
-    display: inline-block;
-    font-size: 1.2rem;
-    border: 2px solid #FE735E;
-    background: #FE735E;
-    color: #FBFBFB;
-}
-
 a.recipe-item:hover {
     background: #FBFBFB;
     color: #FE735E;
@@ -100,4 +83,22 @@ a.recipe-item:hover {
     padding: 20px;
     border-radius: 15px;
     background: #FFFFFF;
+}
+
+.recipe-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipe-item {
+    padding:10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 2px solid #FE735E;
+    background: #FE735E;
+    color: #FBFBFB;  
+    font-size: 1.2rem;
 }
