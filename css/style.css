@@ -4,7 +4,6 @@
     font-family: Montserrat;
     font-weight: 300;
     background-color: #FBFBFB;
-    /*border: 2px solid red;*/
 }
 
 h1, h2, h3 {
@@ -25,7 +24,6 @@ pre {
 }
 
 a {
-    color: #FE735E;
     text-decoration: none;
     font-weight: 500;
 }
@@ -36,7 +34,7 @@ ul.myUL, ol.myUL {
 }
 
 .recipe-image-container {
-    width: 50%;
+    width: 70%;
     margin: 20px auto;
 }
 
@@ -57,26 +55,6 @@ ul.myUL, ol.myUL {
     width: 300px;
 }
 
-a.button {
-    background-color: #FE735E;
-    color: #FBFBFB;
-    padding: 10px 20px;
-    border: 2px solid #FE735E;
-    border-radius: 8px;
-    margin-top: 20px;
-    display: inline-block;
-}
-
-a.button:hover {
-    background-color: #FBFBFB;
-    color: #FE735E;
-}
-
-a.recipe-item:hover {
-    background: #FBFBFB;
-    color: #FE735E;
-}
-
 .dish-description {
     width: 70%;
     margin: 40px auto;
@@ -88,17 +66,25 @@ a.recipe-item:hover {
 .recipe-container {
     display: flex;
     margin: 0 auto;
+    width: 80%;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.recipe-item {
-    padding:10px;
+.button {
+    display: inline-block;
+    padding: 8px 12px;
     margin: 10px;
-    border-radius: 8px;
+    border-radius: 12px;
+    width: 180px;
     box-sizing: border-box;
     border: 2px solid #FE735E;
     background: #FE735E;
     color: #FBFBFB;  
     font-size: 1.2rem;
+}
+
+.button:hover {
+    background: #FBFBFB;
+    color: #FE735E;
 }
