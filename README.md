@@ -8,3 +8,5 @@ Some of the concepts explored as part of the project:
 - Project structuring
 - CSS Cascades
 - Flexbox
+
+![Screenshot](homepage.png)
