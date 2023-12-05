@@ -22,11 +22,6 @@ strong {
     margin: 0px auto 25px;
 }
 
-/* This solves the issue where the HTML indentation was being treated as a whitespace at the starting of each line in <pre> */
-pre {
-    white-space: pre-line;
-}
-
 a {
     text-decoration: none;
     font-weight: 500;
